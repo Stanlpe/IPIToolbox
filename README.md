@@ -1,154 +1,83 @@
 
-# ♥ IPI Toolbox ♥ — Boîte à outils Pentest pour l’audit de sécurité
+# 🛠️ IPI Toolbox — Boîte à outils de Pentest Interactive
 
-Bienvenue dans **IPI Toolbox**, une boîte à outils interactive en ligne de commande dédiée aux **auditeurs sécurité** et **étudiants en cybersécurité**.  
-Ce projet pédagogique permet de sélectionner un **bien essentiel**, un **niveau OSI**, et d’obtenir une **analyse des risques** ainsi qu’une **cheatsheet** pour réaliser l’attaque correspondante.
+Bienvenue dans **IPI Toolbox**, une boîte à outils interactive en ligne de commande dédiée aux auditeurs sécurité et étudiants en cybersécurité.
 
----
-
-## ❤️ Objectif
-
-- Proposer un outil pédagogique interactif pour apprendre à évaluer les risques liés aux différents éléments du SI.
-- Guider l’utilisateur à travers une interface simple à utiliser pour explorer :
-  - Les **catégories de biens essentiels**
-  - Les **niveaux OSI**
-  - Les **risques principaux**
-  - Les **impacts en termes de confidentialité, intégrité, disponibilité**
-  - Les **méthodes d’attaque** correspondantes via des cheatsheets
+Ce projet pédagogique vous permet de sélectionner un **bien essentiel**, un **niveau OSI**, et d’obtenir :
+- une **analyse des risques** (confidentialité, intégrité, disponibilité),
+- une **cheatsheet** associée expliquant comment réaliser une attaque représentative.
 
 ---
 
-## 📦 Prérequis
+## 🎯 Objectifs & Démarche
 
-| Outil       | Usage                                 | Installation                   |
-|-------------|----------------------------------------|--------------------------------|
-| `jq`        | Lecture des fichiers JSON              | `sudo apt install jq`          |
-| `curl`      | Récupération distante de cheatsheets   | `sudo apt install curl`        |
-| `git`       | Clonage du projet (facultatif)         | `sudo apt install git`         |
+Le projet a été conçu avec une double visée :
+1. **Pédagogique** : permettre aux utilisateurs de comprendre l’impact des attaques selon les niveaux OSI.
+2. **Opérationnelle** : fournir des outils pratiques et concrets pour réaliser des tests d’intrusion ciblés.
 
-📌 **Pourquoi ces outils ?**  
-- `jq` permet une extraction simple, modifiable, des données depuis un fichier `.json`.  
-- `curl` télécharge les cheatsheets Markdown directement depuis le GitHub.  
-
----
-
-## 📁 Arborescence du projet
-
-```
-IPIToolbox/
-├── ipi_pentest.sh                  # Script Bash interactif
-├── data_outils_pentest.json      # Base de données structurée (modifiable)
-├── cheatsheets/                  # Cheatsheets techniques par couche OSI
-│   ├── 01_physique/
-│   ├── 02_liaison/
-│   ├── ...
-│   └── 07_application/
-└── docs/                         # Documentation complémentaire
-    ├── INSTALL.md
-    └── DATA_MODEL.md
-```
+La base de données (`data_outils_pentest.json`) a été construite à partir d’un tableur de classification (`analyse.xlsx`), recensant :
+- des **catégories de biens essentiels**,
+- les **éléments techniques associés**,
+- les **couches OSI impactées**,
+- les **risques sécurité correspondants**.
 
 ---
 
-## 🚀 Installation & Lancement
+## 🧠 Structure de l’outil
+
+- `ipi_pentest.sh` : interface interactive
+- `data_outils_pentest.json` : base de connaissance modifiable
+- `cheatsheets/` : ensemble de fiches pratiques classées par couche OSI 
+- `docs/` : documentations (installation, structure, tableur, etc.)
+
+---
+
+## 🔗 Accès aux Cheatsheets
+
+Les cheatsheets sont organisées par couche OSI :
+
+Chacune explique comment effectuer une attaque courante sur la couche choisie, avec outils, commandes et exemples.
+
+---
+
+## 📊 Notice de classification du tableur `analyse.xlsx`
+
+Le tableur contient 3 sections clés :
+- **Catégories de biens essentiels** (ex : Transmission, Identité…)
+- **Biens essentiels concernés** (ex : DNS, IP, Adresses MAC…)
+- **Risques associés** selon les principes CID (Confidentialité, Intégrité, Disponibilité)
+
+💡 Utilisation :
+- Ajouter ou éditer une ligne pour enrichir la base
+- Exporter les données en JSON pour alimenter `data_outils_pentest.json`
+
+
+---
+
+## 🚀 Lancer l’outil
 
 ```bash
-git clone https://github.com/Stanlpe/IPIToolbox/
-cd IPIToolbox
-chmod +x ipi_pentest.sh
-./ipi_pentest.sh
-```
-
----
-
-## 🧭 Utilisation
-
-Lancement :
-
-```bash
+chmod +x script_ipi.sh
 ./script_ipi.sh
 ```
 
-Interface :
+---
 
-```
-[♥ IPI ♥] > 
-```
+## 📚 Documentation
 
-Étapes guidées :
-1. Choix d’une **catégorie** de bien essentiel
-2. Sélection du **bien spécifique**
-3. Choix du **niveau OSI concerné**
-
-Résultat affiché :
-- 🔐 Risque principal
-- ⚠️ Impacts : Confidentialité / Intégrité / Disponibilité
-- 📄 Cheatsheet : instructions détaillées pour reproduire ou simuler l’attaque
+- [INSTALL.md](docs/INSTALL.md)
+- [DATA_MODEL.md](docs/DATA_MODEL.md)
 
 ---
 
-## 📊 Structure du fichier `data_outils_pentest.json`
+## 🤝 Contributions
 
-Le fichier est facilement modifiable pour enrichir la base de données.
-
-```json
-{
-  "categorie": "Transmission",
-  "bien": "Adresses IP et routage réseau (firewalls, routeurs, serveurs)",
-  "osi": "3",
-  "risque": "Usurpation d’adresse IP ou redirection de trafic",
-  "confidentialite": "Fuite potentielle de données réseau",
-  "integrite": "Modification non autorisée des règles de routage",
-  "disponibilite": "Risque de DoS par empoisonnement ARP",
-  "cheatsheet": "03_reseau/usurpation-ip.md"
-}
-```
-
-Champs :
-- `categorie` : Catégorie de bien essentiel
-- `bien` : Élément cible
-- `osi` : Niveau OSI (1 à 7)
-- `risque` : Scénario principal
-- `confidentialite`, `integrite`, `disponibilite` : Impacts CIA
-- `cheatsheet` : Lien ou chemin vers le fichier Markdown
+Contributions bienvenues pour enrichir les cheatsheets, structurer d’autres niveaux OSI ou proposer de nouveaux scénarios d’attaque.
 
 ---
 
-## 📘 Documentation
+## 🧑‍💻 Auteur
 
-Tu peux ajouter ou consulter la documentation dans le dossier `docs/` :
-
-- `INSTALL.md` : Instructions détaillées d’installation
-- `DATA_MODEL.md` : Explication du format JSON et méthode de contribution
-
----
-
-## 🧠 À qui s’adresse cet outil ?
-
-- 🧑‍🎓 Étudiants en cybersécurité
-- 🕵️ Auditeurs en herbe
-- 👨‍🏫 Formateurs en sécurité
-
----
-
-## 💡 Contribution
-
-- Créer une nouvelle entrée dans `data_outils_pentest.json`
-- Ajouter une nouvelle cheatsheet dans le dossier `cheatsheets/[couche]/`
-- Pull requests bienvenues !
-
----
-
-## 🧪 Exemple rapide
-
-```bash
-jq '.' data_outils_pentest.json | less
-```
-
----
-
-## 📜 Licence
-
-Projet libre sous licence MIT.
+Ce projet a été réalisé dans le cadre d’un apprentissage en cybersécurité. Il constitue un **exercice pratique de modélisation des risques**.
 
 ---
