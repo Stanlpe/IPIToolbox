@@ -1,36 +1,76 @@
-# ⚙️ INSTALLATION & PRÉREQUIS
 
-Ce fichier décrit les éléments nécessaires pour utiliser correctement **IPI Pentest Toolbox**, ainsi que les étapes d’installation et de configuration.
+# 📦 INSTALLATION — IPI Toolbox
 
----
-
-## ✅ Pré-requis
-
-| Outil / Dépendance | Rôle | Installation |
-|--------------------|------|--------------|
-| `jq`               | Lecture des fichiers `.json` | `sudo apt install jq` |
-| `curl`             | Téléchargement de cheatsheets GitHub | `sudo apt install curl` |
-| `git` *(optionnel)*| Clonage du dépôt GitHub | `sudo apt install git` |
+Ce fichier vous guide étape par étape dans l’installation et l’utilisation de **IPI Toolbox**, une boîte à outils interactive pour auditeurs et étudiants en cybersécurité.
 
 ---
 
-## ❓ Pourquoi ces prérequis ?
+## ✅ Prérequis système
 
-- **`jq`** : Permet d'extraire les informations pertinentes du fichier `.json`.
-- **`curl`** : Sert à télécharger les cheatsheets automatiquement depuis GitHub.
-- **`git`** : Utile pour cloner le projet localement.
+Vous devez disposer :
+
+- d’un environnement Linux
+- d’un accès internet (pour cloner ou télécharger les cheatsheets)
+- de droits d’exécution dans le dossier cloné
 
 ---
 
-## 📥 Installation
+## 🧰 Dépendances nécessaires
 
-### Cloner le dépôt
+| Outil       | Usage                                 | Installation                   |
+|-------------|----------------------------------------|--------------------------------|
+| `jq`        | Lecture des fichiers JSON              | `sudo apt install jq`          |
+| `curl`      | Récupération distante de cheatsheets   | `sudo apt install curl`        |
+| `git`       | Clonage du projet (facultatif)         | `sudo apt install git`         |
+
+---
+
+## 💾 Clonage du dépôt
 
 ```bash
-git clone https://github.com/Stanlpe/IPIToolbox
+git clone https://github.com/Stanlpe/IPIToolbox/
 cd IPIToolbox
+```
 
 
+---
 
+## 🔓 Rendre le script exécutable
 
+```bash
+chmod +x ipi_pentest.sh
+```
 
+---
+
+## 🚀 Lancement
+
+```bash
+./ipi_pentest.sh
+```
+
+Vous accédez alors à une interface inspirée de Metasploit :
+
+```
+[♥ IPI ♥] > 
+```
+
+---
+
+## 🆘 Problèmes fréquents
+
+- ❗ `command not found: jq` → installez jq : `sudo apt install jq`
+- ❗ `Permission denied` → vérifiez que le script a les droits : `chmod +x sipi_pentest.sh`
+- ❗ Le script ne se lance pas → assurez-vous d’être dans le bon dossier et sur un système Linux
+
+---
+
+## 🧪 Test rapide
+
+```bash
+jq '.' data_outils_pentest.json | less
+```
+
+Permet de vérifier que le fichier de données est lisible.
+
+---
