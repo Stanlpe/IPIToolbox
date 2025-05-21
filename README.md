@@ -9,7 +9,7 @@ Ce projet pédagogique permet de sélectionner un **bien essentiel**, un **nivea
 ## ❤️ Objectif
 
 - Proposer un outil pédagogique interactif pour apprendre à évaluer les risques liés aux différents éléments du SI.
-- Guider l’utilisateur à travers une interface de type Metasploit (`[♥ IPI ♥]`) pour explorer :
+- Guider l’utilisateur à travers une interface simple à utiliser pour explorer :
   - Les **catégories de biens essentiels**
   - Les **niveaux OSI**
   - Les **risques principaux**
