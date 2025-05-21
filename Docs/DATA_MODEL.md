@@ -61,15 +61,4 @@ Chaque entrée du fichier est structurée comme suit :
 
 - Vous pouvez modifier ou ajouter des entrées avec un éditeur JSON comme [JSONLint](https://jsonlint.com).
 - Le champ `osi_layer` doit être un entier sous forme de chaîne (`"1"` à `"7"`).
-- L’URL vers les cheatsheets doit pointer vers un fichier brut sur GitHub (`raw.githubusercontent.com`).
-
----
-
-## 📚 Bonnes pratiques
-
-- Classez les cheatsheets dans des dossiers `OSI1/`, `OSI2/`, … `OSI7/` dans votre dépôt GitHub.
-- Évitez les doublons de biens essentiels dans une même couche OSI.
-- Privilégiez les cheatsheets courtes, ciblées et actionnables.
-
----
-
+- L’URL vers les cheatsheets doit pointer vers un fichier brut sur GitHub
