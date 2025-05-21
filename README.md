@@ -23,7 +23,6 @@ Chaque attaque est liée à une couche OSI et décrite dans un fichier Markdown,
 
 ### 1. Installation des dépendances
 
-- Bash ≥ 4.0
 - jq (`sudo apt install jq`)
 - curl (`sudo apt install curl`)
 
