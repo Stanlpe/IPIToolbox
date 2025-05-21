@@ -55,8 +55,8 @@ IPIToolbox/
 ```bash
 git clone https://github.com/Stanlpe/IPIToolbox/
 cd IPIToolbox
-chmod +x script_ipi.sh
-./script_ipi.sh
+chmod +x ipi_pentest.sh
+./ipi_pentest.sh
 ```
 
 ---
