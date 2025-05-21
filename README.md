@@ -14,7 +14,7 @@ Ce projet pédagogique permet de sélectionner un **bien essentiel**, un **nivea
   - Les **niveaux OSI**
   - Les **risques principaux**
   - Les **impacts en termes de confidentialité, intégrité, disponibilité**
-  - Les **méthodes d’attaque** correspondantes via des cheatsheets Markdown
+  - Les **méthodes d’attaque** correspondantes via des cheatsheets
 
 ---
 
@@ -22,7 +22,6 @@ Ce projet pédagogique permet de sélectionner un **bien essentiel**, un **nivea
 
 | Outil       | Usage                                 | Installation                   |
 |-------------|----------------------------------------|--------------------------------|
-| `bash`      | Interface CLI                          | Natif Linux/macOS              |
 | `jq`        | Lecture des fichiers JSON              | `sudo apt install jq`          |
 | `curl`      | Récupération distante de cheatsheets   | `sudo apt install curl`        |
 | `git`       | Clonage du projet (facultatif)         | `sudo apt install git`         |
@@ -30,7 +29,6 @@ Ce projet pédagogique permet de sélectionner un **bien essentiel**, un **nivea
 📌 **Pourquoi ces outils ?**  
 - `jq` permet une extraction simple, modifiable, des données depuis un fichier `.json`.  
 - `curl` télécharge les cheatsheets Markdown directement depuis le GitHub.  
-- `bash` garantit la compatibilité sans dépendances externes complexes.
 
 ---
 
