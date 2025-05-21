@@ -36,7 +36,7 @@ Ce projet pédagogique permet de sélectionner un **bien essentiel**, un **nivea
 
 ```
 IPIToolbox/
-├── script_ipi.sh                  # Script Bash interactif
+├── ipi_pentest.sh                  # Script Bash interactif
 ├── data_outils_pentest.json      # Base de données structurée (modifiable)
 ├── cheatsheets/                  # Cheatsheets techniques par couche OSI
 │   ├── 01_physique/
