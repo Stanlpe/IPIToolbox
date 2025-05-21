@@ -16,7 +16,6 @@ Ce fichier décrit les éléments nécessaires pour utiliser correctement **IPI 
 
 ## ❓ Pourquoi ces prérequis ?
 
-- **`bash`** : Le cœur de l’interface interactive est un script shell.
 - **`jq`** : Permet d'extraire les informations pertinentes du fichier `.json`.
 - **`curl`** : Sert à télécharger les cheatsheets automatiquement depuis GitHub.
 - **`git`** : Utile pour cloner le projet localement.
