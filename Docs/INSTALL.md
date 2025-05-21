@@ -30,13 +30,6 @@ Ce fichier décrit les éléments nécessaires pour utiliser correctement **IPI 
 git clone https://github.com/<ton_user>/IPIToolbox](https://github.com/Stanlpe/pentest-tools
 cd IPIToolbox
 
----
-
-## 📥 Exécution
-### Lancer le script
-chmod +x script_ipi.sh
-./script_ipi.sh
-
 
 
 
