@@ -53,7 +53,7 @@ IPIToolbox/
 ## 🚀 Installation & Lancement
 
 ```bash
-git clone https://github.com/ton_user/IPIToolbox
+git clone https://github.com/Stanlpe/IPIToolbox/
 cd IPIToolbox
 chmod +x script_ipi.sh
 ./script_ipi.sh
