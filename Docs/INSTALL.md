@@ -27,7 +27,7 @@ Ce fichier décrit les éléments nécessaires pour utiliser correctement **IPI 
 ### Cloner le dépôt
 
 ```bash
-git clone https://github.com/<ton_user>/IPIToolbox](https://github.com/Stanlpe/pentest-tools
+git clone https://github.com/Stanlpe/IPIToolbox
 cd IPIToolbox
 
 
