@@ -8,7 +8,6 @@ Ce fichier décrit les éléments nécessaires pour utiliser correctement **IPI 
 
 | Outil / Dépendance | Rôle | Installation |
 |--------------------|------|--------------|
-| `bash`             | Exécution du script interactif | Présent nativement sur Linux/Mac |
 | `jq`               | Lecture des fichiers `.json` | `sudo apt install jq` |
 | `curl`             | Téléchargement de cheatsheets GitHub | `sudo apt install curl` |
 | `git` *(optionnel)*| Clonage du dépôt GitHub | `sudo apt install git` |
