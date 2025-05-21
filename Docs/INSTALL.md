@@ -24,9 +24,17 @@ Ce fichier décrit les éléments nécessaires pour utiliser correctement **IPI 
 
 ## 📥 Installation
 
-### 1. Cloner le dépôt
+### Cloner le dépôt
 
 ```bash
-git clone https://github.com/<ton_user>/IPIToolbox.git
+git clone https://github.com/<ton_user>/IPIToolbox](https://github.com/Stanlpe/pentest-tools
 cd IPIToolbox
+
+### Lancer le dépot
+chmod +x script_ipi.sh
+./script_ipi.sh
+
+
+
+
 
