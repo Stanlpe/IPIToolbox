@@ -32,7 +32,8 @@ cd IPIToolbox
 
 ---
 
-### Lancer le dépot
+## 📥 Exécution
+### Lancer le script
 chmod +x script_ipi.sh
 ./script_ipi.sh
 
