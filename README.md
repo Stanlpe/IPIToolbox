@@ -10,7 +10,6 @@
 - [🧪 Choix technologiques](#-choix-technologiques)
 - [📁 Structure du dépôt](#-structure-du-dépôt)
 - [📚 Documentation](#-documentation)
-- [▶️ Démonstration](#️-démonstration)
 - [🤝 Contribuer](#-contribuer)
 ---
 
@@ -150,7 +149,7 @@ Les fichiers du dossier `Cheatsheets/` décrivent des attaques classées par cou
 
 ----------
 
-## ▶️Utilisation
+## ▶️ Exécution du script
 
 Le script peut être exécuté de deux manières :
 
