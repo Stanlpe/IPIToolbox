@@ -49,10 +49,12 @@ chmod +x ipi_pentest.sh
 ./ipi_pentest.sh
 ```
 
-Vous accédez alors à une interface inspirée de Metasploit :
+Vous accédez alors à une interface intuitive :
 
 ```
-[♥ IPI ♥] > 
+![image](https://github.com/user-attachments/assets/ba97dd7f-0606-4f43-a325-67f5ef0e2afb)
+
+
 ```
 
 ---
