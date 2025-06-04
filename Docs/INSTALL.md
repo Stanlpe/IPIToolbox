@@ -51,11 +51,10 @@ chmod +x ipi_pentest.sh
 
 Vous accédez alors à une interface intuitive :
 
-```[
+[
 ![Interface](https://i.ibb.co/nXXtb0K/image.png
 )
 
-```
 
 ---
 
