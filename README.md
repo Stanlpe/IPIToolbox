@@ -10,7 +10,7 @@
 - [🧪 Choix technologiques](#-choix-technologiques)
 - [📁 Structure du dépôt](#-structure-du-dépôt)
 - [📚 Documentation](#-documentation)
-- [📸 Démonstration](#-démonstration)
+- [▶️ Utilisation](#-utilisation)
 - [🤝 Contribuer](#-contribuer)
 ---
 
@@ -150,7 +150,7 @@ Les fichiers du dossier `Cheatsheets/` décrivent des attaques classées par cou
 
 ----------
 
-## ▶️ Utilisation du script `ipi_pentest.sh`
+## ▶️Utilisation
 
 Le script peut être exécuté de deux manières :
 
