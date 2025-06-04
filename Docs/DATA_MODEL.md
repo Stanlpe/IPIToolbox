@@ -27,11 +27,7 @@ Chaque entrée du fichier est structurée comme suit :
     "integrite": "Description ou niveau de risque",
     "disponibilite": "Description ou niveau de risque"
   },
-  "cheatsheet": {
-    "url": "URL GitHub brute vers le fichier .md",
-    "description": "Brève explication du contenu de la cheatsheet"
-  }
-}
+
 ```
 
 ---
@@ -48,17 +44,13 @@ Chaque entrée du fichier est structurée comme suit :
     "integrite": "Élevée",
     "disponibilite": "Critique"
   },
-  "cheatsheet": {
-    "url": "https://raw.githubusercontent.com/ton_user/IPIToolbox/main/OSI3/nmap_scan.md",
-    "description": "Utiliser nmap pour scanner les IP et détecter les routes"
-  }
-}
 ```
 
 ---
 
 ## 🛠️ Conseils de modification
-
-- Vous pouvez modifier ou ajouter des entrées avec un éditeur JSON comme [JSONLint](https://jsonlint.com).
+- Respectez l’orthographe des noms de catégories et de biens essentiels pour assurer la cohérence avec l’interface IPI Toolbox.
 - Le champ `osi_layer` doit être un entier sous forme de chaîne (`"1"` à `"7"`).
-- L’URL vers les cheatsheets doit pointer vers un fichier brut sur GitHub
+- Utilisez un éditeur de texte avec coloration syntaxique JSON (ex. VSCode, Sublime Text) pour éviter les erreurs de formatage.
+- Vérifiez la validité du fichier JSON avec un outil comme https://jsonlint.com avant de l’importer dans IPI Toolbox.
+
