@@ -124,11 +124,24 @@ IPIToolbox/
 
 ## 📚 Documentation
 
-La documentation du projet se trouve dans le dossier `Docs/` :
+La documentation complète du projet se trouve dans le dossier [`Docs/`](Docs/). Elle est composée des fichiers suivants :
 
--   [`INSTALL.md`](Docs/INSTALL.md) : instructions détaillées d’installation et configuration de l’outil dans un environnement Linux.
-    
--   [`DATA_MODEL.md`](Docs/DATA_MODEL.md) : spécifie le format du fichier `data_outils_pentest.json` (structure, champs, exemples).
+- [`Docs/INSTALL.md`](Docs/INSTALL.md)  
+  ➤ Guide d’installation pas à pas pour configurer l’outil dans un environnement Linux.
+
+- [`Docs/DATA_MODEL.md`](Docs/DATA_MODEL.md)  
+  ➤ Spécification du fichier `data_outils_pentest.json` : structure des données, signification des champs, exemples d’entrées.
+
+- [`Docs/structure_fichiers.md`](Docs/structure_fichiers.md)  
+  ➤ Décrit l’organisation des fichiers du dépôt : rôle de chaque répertoire (`Cheatsheets/`, `Docs/`, `Input/`, etc.) et interactions entre eux.
+
+- [`Docs/analyse.xlsx`](Docs/analyse.xlsx)  
+  ➤ Tableur de classification des outils de pentest selon :
+  - Les catégories de biens essentiels
+  - Les risques usuels en sécurité de l'information (confidentialité, intégrité, disponibilité)
+  - Le risque associée
+  - Les biens essentiels associés 
+  ➤ Sert de base de référence pour la structuration de `data_outils_pentest.json`.
     
 
 ### 🧠 Cheatsheets
