@@ -110,7 +110,6 @@ Ce projet mise sur des technologies simples, accessibles et robustes :
 ```plaintext
 IPIToolbox/
 ├── Cheatsheets/              # Fiches d’attaques par couche OSI
-│   └── 03_Reseau_test.md
 ├── Docs/                     # Documentation interne du projet
 ├── Input/                    # contient des fichiers texte permettant d'automatiser l'exécution du script ipi_pentest.sh sans interaction manuelle
 ├── data_outils_pentest.json  # Base de données structurée (risques & attaques)
