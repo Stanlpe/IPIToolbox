@@ -10,7 +10,7 @@
 - [🧪 Choix technologiques](#-choix-technologiques)
 - [📁 Structure du dépôt](#-structure-du-dépôt)
 - [📚 Documentation](#-documentation)
-- [▶️ Démonstration](#démonstration)
+- [▶️ Démonstration](#-démonstration)
 - [🤝 Contribuer](#-contribuer)
 ---
 
@@ -189,7 +189,7 @@ L'utilisateur répond manuellement aux questions successives :
 
 Le script `ipi_pentest.sh` peut être exécuté automatiquement à partir d’un fichier d’entrée. Cela permet de simuler une session interactive sans intervention humaine, ce qui est utile pour les démonstrations, les tests ou l'intégration dans des processus automatisés.
 
-### ▶️ Démonstration
+## ▶️ Démonstration
 
 ```bash
 ./ipi_pentest.sh < Input/input_bdd
