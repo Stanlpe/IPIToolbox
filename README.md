@@ -1,5 +1,5 @@
 
-# 🧰 IPI Toolbox – Pentest & OSI Risk Analysis
+# 🧰 IPI Toolbox – Pentest
 
 ## 📑 Sommaire
 
