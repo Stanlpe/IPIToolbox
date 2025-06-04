@@ -113,7 +113,6 @@ IPIToolbox/
 ├── Cheatsheets/              # Fiches d’attaques par couche OSI
 │   └── 03_Reseau_test.md
 ├── Docs/                     # Documentation interne du projet
-│   └── structure_fichiers.md
 ├── data_outils_pentest.json  # Base de données structurée (risques & attaques)
 ├── ipi_pentest.sh            # Script principal CLI
 └── README.md                 # Fichier de présentation
@@ -130,8 +129,6 @@ La documentation du projet se trouve dans le dossier `Docs/` :
 -   [`INSTALL.md`](Docs/INSTALL.md) : instructions détaillées d’installation et configuration de l’outil dans un environnement Linux.
     
 -   [`DATA_MODEL.md`](Docs/DATA_MODEL.md) : spécifie le format du fichier `data_outils_pentest.json` (structure, champs, exemples).
-    
--   `structure_fichiers.md` : explique l’organisation logique du dépôt, le nommage des cheatsheets, et les relations entre couches OSI et biens essentiels.
     
 
 ### 🧠 Cheatsheets
