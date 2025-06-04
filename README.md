@@ -133,7 +133,7 @@ Les fichiers du dossier `Cheatsheets/` décrivent des attaques classées par cou
 
 ----------
 
-📸 Démonstration
+## 📸 Démonstration
 
 1. Choix de la catégorie de bien essentiel
 
