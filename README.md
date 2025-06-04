@@ -43,6 +43,25 @@ Elle vise à sensibiliser à la cybersécurité en combinant :
 
 ## 📦 Installation
 
+✅ Prérequis système
+
+Vous devez disposer :
+
+- d’un environnement Linux
+- d’un accès internet (pour cloner ou télécharger les cheatsheets)
+- de droits d’exécution dans le dossier cloné
+
+---
+
+🧰 Dépendances nécessaires
+
+| Outil       | Usage                                 | Installation                   |
+|-------------|----------------------------------------|--------------------------------|
+| `jq`        | Lecture des fichiers JSON              | `sudo apt install jq`          |
+| `curl`      | Récupération distante de cheatsheets   | `sudo apt install curl`        |
+| `git`       | Clonage du projet (facultatif)         | `sudo apt install git`         |
+
+
 Cloner le dépôt Git
 ```bash
 git clone https://github.com/Stanlpe/IPIToolbox.git
