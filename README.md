@@ -89,6 +89,9 @@ Ce projet mise sur des technologies simples, accessibles et robustes :
 
 ## 📁 Structure du dépôt
 
+## 📁 Structure du dépôt
+
+```plaintext
 IPIToolbox/
 ├── Cheatsheets/              # Fiches d’attaques par couche OSI
 │   └── 03_Reseau_test.md
@@ -97,6 +100,7 @@ IPIToolbox/
 ├── data_outils_pentest.json  # Base de données structurée (risques & attaques)
 ├── ipi_pentest.sh            # Script principal CLI
 └── README.md                 # Fichier de présentation
+
 
 
 ----------
