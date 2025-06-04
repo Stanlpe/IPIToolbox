@@ -89,8 +89,6 @@ Ce projet mise sur des technologies simples, accessibles et robustes :
 
 ## 📁 Structure du dépôt
 
-## 📁 Structure du dépôt
-
 ```plaintext
 IPIToolbox/
 ├── Cheatsheets/              # Fiches d’attaques par couche OSI
