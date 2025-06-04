@@ -4,17 +4,15 @@ Ce document présente la structure des fichiers du projet **IPIToolbox**, une bo
 
 ## 🗂️ Arborescence du projet
 
+```text
 IPIToolbox/
 ├── Cheatsheets/
 ├── Docs/
 ├── Input/
 ├── data_outils_pentest.json
 ├── ipi_pentest.sh
-├── README.md
-
-yaml
-Copier
-Modifier
+└── README.md
+```
 
 ## 📁 Détails des dossiers et fichiers
 
