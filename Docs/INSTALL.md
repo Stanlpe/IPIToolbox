@@ -44,7 +44,7 @@ chmod +x ipi_pentest.sh
 ---
 
 
-## 🚀 Lancement
+## 🚀 Exécution du script
 
 ```bash
 ./ipi_pentest.sh
