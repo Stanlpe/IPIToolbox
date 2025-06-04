@@ -149,7 +149,16 @@ Les fichiers du dossier `Cheatsheets/` décrivent des attaques classées par cou
 
 ----------
 
-## 📸 Démonstration
+## ▶️ Utilisation du script `ipi_pentest.sh`
+
+Le script peut être exécuté de deux manières :
+
+### 1. 🔧 Mode interactif classique
+
+L'utilisateur répond manuellement aux questions successives :
+
+```bash
+./ipi_pentest.sh
 
 1. Choix de la catégorie de bien essentiel
 
@@ -173,6 +182,44 @@ Les fichiers du dossier `Cheatsheets/` décrivent des attaques classées par cou
 ![Interface](https://i.ibb.co/tpHJfX1m/image.webp
 )
 ----------
+
+## 2. 🤖 Mode automatisé avec fichier d'entrée
+
+Le script `ipi_pentest.sh` peut être exécuté automatiquement à partir d’un fichier d’entrée. Cela permet de simuler une session interactive sans intervention humaine, ce qui est utile pour les démonstrations, les tests ou l'intégration dans des processus automatisés.
+
+### ▶️ Commande
+
+```bash
+./ipi_pentest.sh < Input/input_bdd
+```
+
+Ici, Input/input_bdd est un fichier texte contenant les réponses attendues par le script.
+
+📄 Exemple de contenu du fichier Input/input_bdd :
+```
+4
+1
+7
+```
+
+Chaque ligne correspond à une réponse dans l’ordre :
+
+```
+1. Catégorie de bien essentiel (Données chiffrées sensibles)
+2. Bien essentiel concernée (Base de données)
+3. Niveau OSI (7)
+```
+
+## 📁 À propos du dossier `Input/`
+
+Le dossier `Input/` contient des fichiers texte préremplis représentant différents cas d’usage. Ces fichiers peuvent être utilisés pour :
+
+- lancer des démonstrations automatisées,
+- tester le comportement du script sans interaction,
+
+🛠️ Ces fichiers peuvent être modifiés ou enrichis en fonction des besoins. Chaque fichier doit contenir une réponse par ligne selon l’ordre attendu par le script.
+
+
 
 ## 🤝 Contribuer
 
