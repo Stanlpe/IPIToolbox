@@ -139,7 +139,7 @@ La documentation complète du projet se trouve dans le dossier [`Docs/`](Docs/).
   ➤ Tableur de classification des outils de pentest selon :
   - Les catégories de biens essentiels
   - Les risques usuels en sécurité de l'information (confidentialité, intégrité, disponibilité)
-  - Le risque associée
+  - Les risques associés
   - Les biens essentiels associés 
   ➤ Sert de base de référence pour la structuration de `data_outils_pentest.json`.
     
