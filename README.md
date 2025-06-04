@@ -57,16 +57,16 @@ Le tableur contient 3 sections clés :
 ## 🚀 Lancer l’outil
 
 ```bash
-chmod +x script_ipi.sh
-./script_ipi.sh
+chmod +x ipi_pentest.sh
+ipi_pentest.sh
 ```
 
 ---
 
 ## 📚 Documentation
 
-- [INSTALL.md](docs/INSTALL.md)
-- [DATA_MODEL.md](docs/DATA_MODEL.md)
+- [INSTALL.md](Docs/INSTALL.md)
+- [DATA_MODEL.md](Docs/DATA_MODEL.md)
 
 ---
 
