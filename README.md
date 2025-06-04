@@ -23,7 +23,7 @@ Elle vise à sensibiliser à la cybersécurité en combinant :
 - Une approche structurée autour du modèle OSI (Open Systems Interconnection)
 - Des scénarios concrets d’attaques documentés via des cheatsheets
 
-🎓 L’utilisateur choisit un **bien à protéger** et un **niveau OSI ciblé**, puis accède :
+🎓 L’utilisateur choisit un **La catégorie ainsi que le bien essentiel associé** et un **niveau OSI ciblé**, puis accède :
 - Aux **risques correspondants**
 - À une **fiche d’attaque représentative**
 - Et aux **outils de pentest associés**
