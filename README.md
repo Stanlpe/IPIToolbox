@@ -188,7 +188,6 @@ L'utilisateur répond manuellement aux questions successives :
 
 Le script `ipi_pentest.sh` peut être exécuté automatiquement à partir d’un fichier d’entrée. Cela permet de simuler une session interactive sans intervention humaine, ce qui est utile pour les démonstrations, les tests ou l'intégration dans des processus automatisés.
 
-## ▶️Démonstration
 
 ```bash
 ./ipi_pentest.sh < Input/input_bdd
