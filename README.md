@@ -10,7 +10,7 @@
 - [🧪 Choix technologiques](#-choix-technologiques)
 - [📁 Structure du dépôt](#-structure-du-dépôt)
 - [📚 Documentation](#-documentation)
-- [▶️ Démonstration](#démonstration)
+- [▶️ Démonstration](#-démonstration)
 - [🤝 Contribuer](#-contribuer)
 ---
 
