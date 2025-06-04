@@ -134,19 +134,24 @@ Les fichiers du dossier `Cheatsheets/` décrivent des attaques classées par cou
 📸 Démonstration
 
 1. Choix de la catégorie de bien essentiel
+
 ![Interface](https://i.ibb.co/M5MmbsHb/image.png
 )
 
 
 2. Choix du bien essentiel
+
 ![Interface](https://i.ibb.co/xqbL6BRG/image.webp
 )
 
 3. Choix du niveau OSI
+
 ![Interface](https://i.ibb.co/d08Bdfvs/image.png
 )
 
 4. Résultat
+
+   
 ![Interface](https://i.ibb.co/tpHJfX1m/image.webp
 )
 ----------
