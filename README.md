@@ -70,7 +70,7 @@ Accéder au répertoire de l'outil
 ``` 
 cd IPIToolbox
 ```
-Donner les droits d'exécution au script Bash
+Rendre le script exécutable
 ```
 chmod +x ipi_pentest.sh
 ```
