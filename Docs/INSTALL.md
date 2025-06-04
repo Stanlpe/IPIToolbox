@@ -27,9 +27,17 @@ Vous devez disposer :
 
 ## 💾 Clonage du dépôt
 
+Cloner le dépôt Git
 ```bash
-git clone https://github.com/Stanlpe/IPIToolbox/
+git clone https://github.com/Stanlpe/IPIToolbox.git
+```
+Accéder au répertoire de l'outil
+``` 
 cd IPIToolbox
+```
+Donner les droits d'exécution au script Bash
+```
+chmod +x ipi_pentest.sh
 ```
 
 
